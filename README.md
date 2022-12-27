@@ -4,7 +4,7 @@
 Simple Echo Server which receives a series of messages from 
 the Client and sends them back adding "echoed by Server" to 
 the message. Both Client and Server take advantage of the [java.nio](https://docs.oracle.com/javase/7/docs/api/java/nio/package-frame.html) 
-package provided by Java using ByteBuffers to store sent messages to 
+package provided by Java using ByteBuffers to store/sent messages to 
 be sent via [SocketChannel](https://docs.oracle.com/javase/7/docs/api/java/nio/channels/SocketChannel.html).
 
 ## Installation (Windows)
